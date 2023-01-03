@@ -12,20 +12,16 @@ import java.time.Duration;
 
 
 public class LoginPage {
-    private JavascriptExecutor js = (JavascriptExecutor) Singleton.driver();
 
     By searchField = By.xpath("//input[contains(@id,'store_nav_search_term')]");
     By selectSearchField = By.xpath("//*[contains(@id,'search_suggestion_contents')]/a[1]");
     By privacyPolicy = By.xpath("//a[contains(@href,'https://store.steampowered.com/privacy_agreement/?snr=1_44_44_')]");
-    By mainPage = By.xpath("//a[contains(@href,'https://store.steampowered.com/?snr=1_subscriberagreement_PrivacyAgreement__global-header')]");
-    By date = By.xpath("//div[contains(@class,'date')]");//*[@id="genresAndManufacturer"]/br[3]
-    By reviews = By.xpath("//span[contains(@class,'responsive_hidden')]");
-    By appName = By.xpath("//div[contains(@id,'appHubAppName')]");
+    By date = By.xpath("//div[contains(@class,'date')]//div[contains(@class,'date')]");
+    By reviews = By.xpath("//span[contains(@class,'positive')]");
+    By appName = By.xpath("//div[contains(@id,'search_suggestion_contents')]/a[1]/div[1]");
     By appPrice = By.xpath("//div[contains(@class,'match_price')]");
+    By appName2 = By.xpath("//div[contains(@id,'search_suggestion_contents')]/a[2]/div[1]");
 
-    public void GoToMainPage(){
-        Singleton.driver().findElement(mainPage);
-    }
     public void InputText(String text){
         Singleton.driver().findElement(searchField).sendKeys(text);
     }
@@ -39,10 +35,10 @@ public class LoginPage {
     }
     public void ScrollingUntilPrivacyPolicy(JavascriptExecutor js){
         WebElement prPo = Singleton.driver().findElement(privacyPolicy);
-        js.executeScript("arguments[0].scrollIntoView();",prPo);
+        js.executeScript("arguments[0].scrollIntoView()",prPo);
     }
     public void Waiting(){
-        WebElement res = new WebDriverWait(Singleton.driver(), Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(selectSearchField));
+        new WebDriverWait(Singleton.driver(), Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOfElementLocated(selectSearchField));
     }
     public String getDate(){
         return Singleton.driver().findElement(date).getText();
@@ -53,10 +49,11 @@ public class LoginPage {
     public String getNameOfApp(){
         return Singleton.driver().findElement(appName).getText();
     }
-    public String getPriceOfApp(){
+    public String getPriceOf1App(){
         return Singleton.driver().findElement(appPrice).getText();
     }
-
-
+    public String getNameOfSecondResInSearchBox(){
+        return Singleton.driver().findElement(appName2).getText();
+    }
 
 }

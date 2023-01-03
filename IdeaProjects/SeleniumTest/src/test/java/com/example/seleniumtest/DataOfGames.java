@@ -2,9 +2,9 @@ package com.example.seleniumtest;
 
 public class DataOfGames {
     String name;
-    int positiveReviews;
+    String positiveReviews;
     String releaseDate;
-    int price;
+    String price;
 
     public String getName() {
         return name;
@@ -14,19 +14,19 @@ public class DataOfGames {
         this.name = name;
     }
 
-    public int getPositiveReviews() {
+    public String getPositiveReviews() {
         return positiveReviews;
     }
 
-    public void setPositiveReviews(int positiveReviews) {
+    public void setPositiveReviews(String positiveReviews) {
         this.positiveReviews = positiveReviews;
     }
 
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 

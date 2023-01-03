@@ -7,9 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Singleton {
     private static WebDriver driver;
-
-
-
     private Singleton(){
 
     }
