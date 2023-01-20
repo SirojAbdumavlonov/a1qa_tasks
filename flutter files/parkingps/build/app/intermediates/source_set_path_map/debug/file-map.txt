@@ -1,0 +1,20 @@
+sb.prk.parkingps.app-jetified-firebase-common-20.2.0-0 C:\Users\Sirojiddin\.gradle\caches\transforms-3\1868d3d5f5f29a210bda5d113d7c3672\transformed\jetified-firebase-common-20.2.0\res
+sb.prk.parkingps.app-jetified-window-1.0.0-beta04-1 C:\Users\Sirojiddin\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+sb.prk.parkingps.app-jetified-play-services-basement-18.1.0-2 C:\Users\Sirojiddin\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\res
+sb.prk.parkingps.app-jetified-annotation-experimental-1.1.0-3 C:\Users\Sirojiddin\.gradle\caches\transforms-3\6c0c163cc77ae6c91f9f7dfcd179c29c\transformed\jetified-annotation-experimental-1.1.0\res
+sb.prk.parkingps.app-browser-1.4.0-4 C:\Users\Sirojiddin\.gradle\caches\transforms-3\6d3bbaf4594b8ed85e4722883be764b3\transformed\browser-1.4.0\res
+sb.prk.parkingps.app-core-1.6.0-5 C:\Users\Sirojiddin\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\res
+sb.prk.parkingps.app-jetified-play-services-base-18.0.1-6 C:\Users\Sirojiddin\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\res
+sb.prk.parkingps.app-jetified-window-java-1.0.0-beta04-7 C:\Users\Sirojiddin\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+sb.prk.parkingps.app-debug-8 C:\Users\Sirojiddin\flutter files\parkingps\android\app\src\debug\res
+sb.prk.parkingps.app-main-9 C:\Users\Sirojiddin\flutter files\parkingps\android\app\src\main\res
+sb.prk.parkingps.app-pngs-10 C:\Users\Sirojiddin\flutter files\parkingps\build\app\generated\res\pngs\debug
+sb.prk.parkingps.app-resValues-11 C:\Users\Sirojiddin\flutter files\parkingps\build\app\generated\res\resValues\debug
+sb.prk.parkingps.app-rs-12 C:\Users\Sirojiddin\flutter files\parkingps\build\app\generated\res\rs\debug
+sb.prk.parkingps.app-mergeDebugResources-13 C:\Users\Sirojiddin\flutter files\parkingps\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+sb.prk.parkingps.app-mergeDebugResources-14 C:\Users\Sirojiddin\flutter files\parkingps\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+sb.prk.parkingps.app-merged_res-15 C:\Users\Sirojiddin\flutter files\parkingps\build\app\intermediates\merged_res\debug
+sb.prk.parkingps.app-packaged_res-16 C:\Users\Sirojiddin\flutter files\parkingps\build\cloud_firestore\intermediates\packaged_res\debug
+sb.prk.parkingps.app-packaged_res-17 C:\Users\Sirojiddin\flutter files\parkingps\build\firebase_analytics\intermediates\packaged_res\debug
+sb.prk.parkingps.app-packaged_res-18 C:\Users\Sirojiddin\flutter files\parkingps\build\firebase_auth\intermediates\packaged_res\debug
+sb.prk.parkingps.app-packaged_res-19 C:\Users\Sirojiddin\flutter files\parkingps\build\firebase_core\intermediates\packaged_res\debug
